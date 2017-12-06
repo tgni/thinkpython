@@ -1,4 +1,5 @@
-def is_palindrome(s):
+def is_palindrome(s, start, end):
+    s = 
     return s[::-1] == s
 
 n = 100000
