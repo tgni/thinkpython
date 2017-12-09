@@ -1,32 +1,91 @@
-"""
-def make_key(word):
-    d = {}
-    t = []
-    for x in word:
-        d[x] = d.get(x, 0) + 1
-    for x in d:
-        t.append((x, d[x]))
-    return tuple(t)
-"""
-from unstable_sort import *
+"""This module contains code from
+Think Python by Allen B. Downey
+http://thinkpython.com
 
-def make_key(word):
-    t = list(word)
+Copyright 2012 Allen B. Downey
+License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
+
+"""
+
+
+def signature(s):
+    """Returns the signature of this string, which is a string
+    that contains all of the letters in order.
+    """
+    t = list(s)
     t.sort()
-    return ''.join(t)
+    t = ''.join(t)
+    return t
+
+
+def all_anagrams(filename):
+    """Finds all anagrams in a list of words.
+
+    filename: string filename of the word list
+
+    Returns: a map from each word to a list of its anagrams.
+    """
+    d = {}
+    for line in open(filename):
+        word = line.strip().lower()
+        t = signature(word)
+
+        if t not in d:
+            d[t] = [word]
+        else:
+            d[t].append(word)
+    return d
+
+
+def print_anagram_sets(d):
+    """Prints the anagram sets in d.
+
+    d: map from words to list of their anagrams
+    """
+    for v in d.values():
+        if len(v) > 1:
+            print len(v), v
+
+
+def print_anagram_sets_in_order(d):
+    """Prints the anagram sets in d in decreasing order of size.
+
+    d: map from words to list of their anagrams
+    """
+
+    # make a list of (length, word pairs)
+    t = []
+    for v in d.values():
+        if len(v) > 1:
+            t.append((len(v), v))
+
+    # sort in ascending order of length
+    t.sort()
+
+    # print the sorted list
+    for x in t:
+        print x
+
+
+def filter_length(d, n):
+    """Select only the words in d that have n letters.
+
+    d: map from word to list of anagrams
+    n: integer number of letters
+
+    Returns: new map from word to list of anagrams
+    """
+    res = {}
+    for word, anagrams in d.iteritems():
+        if len(word) == n:
+            res[word] = anagrams
+    return res
+
 
 if __name__ == '__main__':
-    fin = open('../wordplay/words.txt')
-    ana = {}
-    for line in fin:
-        word = line.strip()
-        key = make_key(word)
-        ana.setdefault(key, []).append(word)
+    d = all_anagrams('../wordplay/words.txt')
+    print_anagram_sets_in_order(d)
+
+    eight_letters = filter_length(d, 8)
+    print_anagram_sets_in_order(eight_letters)
     
-    t = []
-    for k in ana:
-        if len(ana[k]) > 1:
-            t += ana[k]
-    t1 = sort_by_length(t)
-    for e in t1:
-        print e
