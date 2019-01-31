@@ -1,0 +1,13 @@
+1. fout = open('output.txt', 'w')
+   fout.write('str')
+   fout.close()
+2. format operator: '%d' % camels
+   for more than 2 args: '%d%d' % (camels, xss), args should be tuple
+3. filename and paths api:
+   >>> import os
+   >>> cwd = os_getcwd()
+   >>> os.path.abspath('xxx.txt')
+   >>> os.path.exists('xxx.txt')
+   >>> os.path.isdir('music')
+   >>> os.path.isfile('xxx')
+   >>> os.listdir(cwd)
