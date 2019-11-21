@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from histogram import *
 
 def invert_dict(d):
@@ -6,6 +8,7 @@ def invert_dict(d):
         inverse.setdefault(val, []).append(key)
     return inverse
 
-hist = histogram('parrot')
+
+hist = histogram('parrot') 
 print hist
 print invert_dict(hist)
