@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 assume list can be compared with relational operators <,> etc.
 """

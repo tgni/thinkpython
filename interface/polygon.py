@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from swampy.TurtleWorld import *
 
 def polygon(t, length, n):

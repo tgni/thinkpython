@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def has_duplicates(t):
     d = {}
 

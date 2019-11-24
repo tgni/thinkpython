@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def middle(t):
     return t[1:len(t)-1]
 

@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def uses_only(word, string):
     for x in word:
         if string.find(x) < 0:

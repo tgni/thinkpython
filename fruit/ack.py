@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from swampy.Lumpy import Lumpy
 
 def ack(m, n):

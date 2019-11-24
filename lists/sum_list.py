@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def sum_list(t):
     res = []
     sum = 0

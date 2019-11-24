@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def histogram(s):
     d = dict()
     for c in s:

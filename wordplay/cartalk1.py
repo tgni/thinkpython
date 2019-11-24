@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """ find consecutive three double letter word, eg: bananana
 """
 def find_seq(word):

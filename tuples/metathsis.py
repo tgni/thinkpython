@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from unstable_sort import *
 
 def is_metathesis(a, b):

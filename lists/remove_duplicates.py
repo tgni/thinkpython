@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def remove_duplicates(t):
     res = []
     for e in t:

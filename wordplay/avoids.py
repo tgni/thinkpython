@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def avoids(word, forbid):
     for x in word:
         for y in forbid:

@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def first(word):
     return word[0]
 

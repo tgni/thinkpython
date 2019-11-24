@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from inlist import *
 
 def reverse_pair(t, word):

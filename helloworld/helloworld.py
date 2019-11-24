@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def print_hello_world():
         print 'Hello World!'
 

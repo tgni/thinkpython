@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from math import *
 
 def square_root(a, x):

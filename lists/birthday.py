@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from random import *
 
 def has_duplicates(t):

@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def do_twice(f, obj):
     f(obj)
     f(obj)

@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from swampy.TurtleWorld import *
 from swampy.Lumpy import Lumpy
 

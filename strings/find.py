@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def find(word, letter, pos):
     index = pos
     while index < len(word):

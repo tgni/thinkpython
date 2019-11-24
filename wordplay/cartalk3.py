@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def swap_age(age):
     if age < 100:
         s = str(age).zfill(2)

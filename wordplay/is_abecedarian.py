@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def is_abecedarian(word):
     length = len(word)
 

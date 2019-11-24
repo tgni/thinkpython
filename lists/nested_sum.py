@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #import types
 def nested_sum(__list):
     total = 0

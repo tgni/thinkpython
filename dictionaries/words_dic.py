@@ -1,3 +1,4 @@
+#!/usr/bin/python
 fin = open('words.txt')
 
 wordsDic = dict() 

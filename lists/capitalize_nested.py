@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 begin a word with capital letter
 """

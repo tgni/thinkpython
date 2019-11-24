@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 This module provides one function, structshape(), which takes
 an object of any type and returns a string that summarizes the

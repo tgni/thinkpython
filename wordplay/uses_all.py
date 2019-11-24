@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def uses_all(word, string):
     for x in string:
         if word.find(x) < 0:

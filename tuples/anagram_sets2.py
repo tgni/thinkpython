@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from unstable_sort import *
 
 def make_key(word):

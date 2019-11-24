@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
     print "-- This parrot wouldn't", action,
     print "if you put", voltage, "volts through it."

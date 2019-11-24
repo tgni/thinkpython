@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def print_twice(str):
     print str
     print str

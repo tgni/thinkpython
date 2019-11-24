@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from histogram import *
 """
 def print_hist(h):

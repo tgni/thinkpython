@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from swampy.TurtleWorld import *
 world = TurtleWorld()
 bob = Turtle()

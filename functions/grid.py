@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def do_four(f, obj):
     f(obj)
     f(obj)

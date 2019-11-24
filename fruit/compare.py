@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def compare(x, y):
     if x > y:
         return 1

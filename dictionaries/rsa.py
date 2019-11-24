@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def encode(s):
     pass # TODO
 

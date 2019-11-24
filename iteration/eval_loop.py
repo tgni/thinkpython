@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def eval_loop():
     while True:
         cmd = raw_input(">>> ")

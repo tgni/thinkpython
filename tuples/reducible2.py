@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from lists.inlist import *
 
 def list_find(t, w):

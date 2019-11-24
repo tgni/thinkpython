@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def is_anagram(s, t):
     if s[::-1] == t:
         return True
