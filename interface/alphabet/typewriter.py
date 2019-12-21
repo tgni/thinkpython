@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/python3
+
 """This module contains code from
 Think Python by Allen B. Downey
 http://thinkpython.com
@@ -25,7 +26,8 @@ except ImportError:
 # check if the reader has provided letters.py
 try:
     from letters import *
-except ImportError, e:
+#except ImportError, e:
+except ImportError(e):
     message = e.args[0]
     if message.startswith('No module'):
         raise ImportError(message + 
@@ -69,7 +71,7 @@ def keypress(event):
     try:
         func = eval('draw_' + event.char)
     except NameError:
-        print "I don't know how to draw an", event.char
+        print("I don't know how to draw an", event.char)
         bob.busy = False
         return
 

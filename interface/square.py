@@ -1,13 +1,13 @@
-#!/usr/bin/python
-from swampy.TurtleWorld import *
-world = TurtleWorld()
-bob = Turtle()
+#!/usr/bin/python3
+
+import turtle
 
 def square(t):
     for i in range(4):
-        fd(t, 100)
-        lt(t)
+        t.fd(100)
+        t.lt(90)
 
+bob = turtle.Turtle()
 square(bob)
 
-wait_for_user()
+turtle.mainloop()

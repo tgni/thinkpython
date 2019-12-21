@@ -1,11 +1,13 @@
-#!/usr/bin/python
-from swampy.TurtleWorld import *
+#!/usr/bin/python3
+
+#from swampy.TurtleWorld import *
+import turtle
 from math import *
 
 def polygon(t, length, n, angle):
     for i in range(int(n)):
-        fd(t, length)
-        rt(t, angle/n)
+        t.fd(length)
+        t.rt(angle/n)
 
 def circle(t, r):
     c      = 2 * pi * r
@@ -14,19 +16,17 @@ def circle(t, r):
     polygon(t, length, n)
 
 def arc(t, r, angle):
-    l = 2 * pi * r * angle / 360.0
-    length = 0.1
-    n = l / length
+    l      = 2 * pi * r * angle / 360.0
+    length = 5 
+    n      = l / length
     polygon(t, length, n, angle)
 
-world = TurtleWorld()
-bob   = Turtle()
-bob.delay = 0.000001
+#world = TurtleWorld()
+bob   = turtle.Turtle()
+#bob.delay = 0.000001
 
-arc(bob, 100, 180)
+arc(bob, 250, 180)
+bob.rt(90)
+bob.fd(2 * 250)
 
-bob.delay = 1
-rt(bob, 90)
-fd(bob, 2 * 100)
-
-wait_for_user()
+turtle.mainloop()

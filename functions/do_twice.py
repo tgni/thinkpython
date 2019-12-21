@@ -4,6 +4,6 @@ def do_twice(f):
     f()
 
 def print_spam():
-    print 'spam'
+    print('spam')
 
 do_twice(print_spam)

@@ -79,6 +79,7 @@ def compute_checksums(dirname, suffix):
 
     Returns: map from checksum to list of files with that checksum
     """
+
     names = walk(dirname)
 
     d = {}

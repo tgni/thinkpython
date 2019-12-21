@@ -1,13 +1,13 @@
-#!/usr/bin/python
-from swampy.TurtleWorld import *
+#!/usr/bin/python3
+
+import turtle
 
 def polygon(t, length, n):
     for i in range(n):
-        fd(t, length)
-        rt(t, 360/n)
+        t.fd(length)
+        t.rt(360/n)
 
-world = TurtleWorld()
-bob   = Turtle()
+bob = turtle.Turtle()
 polygon(bob, 50, 8)
 
-wait_for_user()
+turtle.mainloop()
