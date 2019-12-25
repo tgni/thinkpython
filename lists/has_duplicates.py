@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/tgni/ml/env/bin/python3
 def has_duplicates(t):
     for i in range(len(t)):
         for s in t[i+1:]:

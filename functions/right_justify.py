@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/tgni/ml/env/bin/python3
 def right_justify(str):
     print(' ' * (70 - len(str)) + str)
 

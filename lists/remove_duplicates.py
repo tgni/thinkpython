@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/tgni/ml/env/bin/python3
 def remove_duplicates(t):
     res = []
     for e in t:

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/tgni/ml/env/bin/python3
 def print_hello_world():
         print ('Hello World!')
 

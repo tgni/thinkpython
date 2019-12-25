@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/tgni/ml/env/bin/python3
 from random import *
 
 def has_duplicates(t):

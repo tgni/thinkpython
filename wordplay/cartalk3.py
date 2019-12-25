@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/tgni/ml/env/bin/python3
 def swap_age(age):
     if age < 100:
         s = str(age).zfill(2)

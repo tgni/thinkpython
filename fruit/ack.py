@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/tgni/ml/env/bin/python3
 from swampy.Lumpy import Lumpy
 
 def ack(m, n):

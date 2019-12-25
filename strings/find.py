@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/tgni/ml/env/bin/python3
 def find(word, letter, pos):
     index = pos
     while index < len(word):
