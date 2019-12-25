@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def do_twice(f):
     f()
     f()

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def do_four_obj(f, obj):
     f(obj)
     f(obj)

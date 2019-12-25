@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def is_palindrome(s, start, end):
     s = 
     return s[::-1] == s

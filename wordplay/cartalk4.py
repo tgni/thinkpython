@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """This module contains code from
 Think Python by Allen B. Downey
 http://thinkpython.com

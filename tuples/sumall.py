@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def sumall(*args):
     print args
     return sum(args)

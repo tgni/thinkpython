@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 

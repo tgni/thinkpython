@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from histogram import *
 
 def reverse_lookup(d, v):

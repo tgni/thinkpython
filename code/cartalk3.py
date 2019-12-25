@@ -1,4 +1,4 @@
-"""This module contains a code example related to
+#!/usr/bin/python3
 
 Think Python, 2nd Edition
 by Allen Downey

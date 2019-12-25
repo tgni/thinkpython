@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from random import *
 
 def sort_by_length(words):

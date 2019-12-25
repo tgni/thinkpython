@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def is_power(a, b):
     if a == b:
         return True

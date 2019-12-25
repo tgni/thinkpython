@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def has_no_e(word):
     if word.find('e') < 0:
         return True

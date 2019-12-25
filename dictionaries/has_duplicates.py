@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def has_duplicates(t):
     d = {}
 

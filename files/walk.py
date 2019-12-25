@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #os.path.walk(path, visit, arg)
 def visit(arg, dir, names):
     print dir, names

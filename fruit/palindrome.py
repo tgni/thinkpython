@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def first(word):
     return word[0]
 

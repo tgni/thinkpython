@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 def chop(t):
     del t[0]
     del t[-1]

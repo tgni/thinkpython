@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from lists.inlist import *
 
 def list_find(t, w):
