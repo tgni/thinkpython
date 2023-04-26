@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 """ find consecutive three double letter word, eg: bananana
 """
 def find_seq(word):

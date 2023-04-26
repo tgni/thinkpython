@@ -1,10 +1,13 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def reverse_display(s):
     index = len(s) - 1
+    rs = ""
     while index >= 0:
         letter = s[index]
-        print letter
+        rs += letter
         index = index - 1
+    return rs
 
-s = raw_input('Pls input a string:')
-reverse_display(s)
+s = input('Pls input a string:')
+rs = reverse_display(s)
+print(rs)

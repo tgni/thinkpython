@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 from inlist import *
 
 def reverse_pair(t, word):

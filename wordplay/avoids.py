@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def avoids(word, forbid):
     for x in word:
         for y in forbid:

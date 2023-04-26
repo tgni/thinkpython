@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def check_triangle(a, b, c):
     if a+b > c and a+c > b and b+c > a:
         print 'Yes'

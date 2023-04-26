@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def is_anagram(s, t):
     if s[::-1] == t:
         return True

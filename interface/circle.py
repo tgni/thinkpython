@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 
 import turtle
 import math
@@ -11,7 +11,7 @@ def polygon(t, length, n):
 
 def circle(t, r):
     c      = 2 * math.pi * r
-    length = 1
+    length = 3
     n      = c / length;
     polygon(t, length, n)
 

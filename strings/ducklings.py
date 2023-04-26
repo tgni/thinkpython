@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 

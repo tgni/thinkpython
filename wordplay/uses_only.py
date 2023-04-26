@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def uses_only(word, string):
     for x in word:
         if string.find(x) < 0:

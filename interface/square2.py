@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 
 import turtle
 
@@ -7,7 +7,7 @@ def square(t, length):
         t.fd(length)
         t.lt(90)
 
-bob   = turtle.Turtle()
-square(bob, 200)
+bob = turtle.Turtle()
+square(bob, 300)
 
 turtle.mainloop()

@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def do_four(f, obj):
     f(obj)
     f(obj)

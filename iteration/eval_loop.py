@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def eval_loop():
     while True:
         cmd = raw_input(">>> ")

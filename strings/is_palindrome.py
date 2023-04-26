@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def is_palindrome(s):
     return s[::-1] == s
 

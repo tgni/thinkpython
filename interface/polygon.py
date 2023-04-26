@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 
 import turtle
 
@@ -8,6 +8,6 @@ def polygon(t, length, n):
         t.rt(360/n)
 
 bob = turtle.Turtle()
-polygon(bob, 50, 8)
+polygon(bob, 80, 16)
 
 turtle.mainloop()

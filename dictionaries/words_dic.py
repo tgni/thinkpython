@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 fin = open('words.txt')
 
 wordsDic = dict() 

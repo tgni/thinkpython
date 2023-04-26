@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def uses_all(word, string):
     for x in string:
         if word.find(x) < 0:

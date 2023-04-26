@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 from random import *
 
 def has_duplicates(t):
@@ -18,4 +18,4 @@ for j in range(1000):
         t.append(random_birthday())
     if has_duplicates(t):
         p += 1
-print 'chance:', p * 100.0 / 1000, '%'
+print ('chance:', p * 100.0 / 1000, '%')

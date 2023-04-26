@@ -1,4 +1,4 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 from unstable_sort import *
 
 def is_metathesis(a, b):

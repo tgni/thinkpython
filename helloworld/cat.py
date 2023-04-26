@@ -1,7 +1,7 @@
-#!/home/tgni/ml/env/bin/python3
+#!/usr/bin/python3
 def print_twice(str):
-    print str
-    print str
+    print (str)
+    print (str)
 
 def cat_twice(part1, part2):
     cat = part1 + part2
