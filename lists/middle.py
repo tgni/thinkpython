@@ -5,5 +5,5 @@ def middle(t):
 t = ['a', 'b', 'c', 'd']
 t1 = middle(t)
 
-print t
-print t1
+print (t)
+print (t1)

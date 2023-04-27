@@ -7,4 +7,4 @@ def has_duplicates(t):
     return False
 
 t = ['a', 'e', 'c', 'd', 'e', 't', 's']
-print t, has_duplicates(t)
+print (t, has_duplicates(t))

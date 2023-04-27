@@ -6,4 +6,4 @@ def is_anagram(s, t):
 
 s = 'abcdef'
 t = 'fedcba'
-print s, t, is_anagram(s, t)
+print (s, t, is_anagram(s, t))

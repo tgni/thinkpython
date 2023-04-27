@@ -10,6 +10,8 @@ def is_sorted(t):
     return True
 
 t = ['a', 'c', 'e', 'h', 'i', 'd']
-print is_sorted(t)
+print (t)
+print (is_sorted(t))
 t.sort()
-print is_sorted(t)
+print (t)
+print (is_sorted(t))

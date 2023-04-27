@@ -10,5 +10,5 @@ def nested_sum(__list):
             total += i
     return total
 
-t = [1, 2, 3, [4, 5]]
-print nested_sum(t)
+t = [1, 2, 3, [4, 5], [6, 7, 8]]
+print (nested_sum(t))

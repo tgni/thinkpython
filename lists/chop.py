@@ -4,6 +4,7 @@ def chop(t):
     del t[-1]
 
 t = ['a', 'b', 'c', 'd']
+print (t)
 t1 = chop(t)
-print t
-print t1
+print (t)
+print (t1)
