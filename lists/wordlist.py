@@ -15,4 +15,4 @@ for line in fin:
     t = t + [line]
 t2 = time() - t2
 
-print t1, t2
+print (t1, t2)

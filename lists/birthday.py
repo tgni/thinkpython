@@ -13,7 +13,7 @@ def random_birthday():
     return randint(1, 365)
 
 p = 0
-for j in range(1000):
+for j in range(100):
     t = []
     for i in range(23):
         t.append(random_birthday())
@@ -21,4 +21,4 @@ for j in range(1000):
     if has_duplicates(t, dup):
         p += 1
         print(t, dup)
-print ('chance:', p * 100.0 / 1000, '%')
+print ('chance:', p * 100.0 / 100, '%')
