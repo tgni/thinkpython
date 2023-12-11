@@ -3,6 +3,8 @@
 import turtle
 import math
 
+# n refer as n-sided regular polygon
+# length refer as side length
 def polygon(t, length, n):
     for i in range(int(n)):
         t.fd(length)

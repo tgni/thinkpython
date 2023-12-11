@@ -5,7 +5,7 @@ def uses_all(word, string):
             return False
     return True
             
-pattern = raw_input('Pls input letters pattern:')
+pattern = input('Pls input letters pattern:')
 fin = open('words.txt')
 for line in fin:
     word = line.strip()

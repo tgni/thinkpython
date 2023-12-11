@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 def eval_loop():
     while True:
-        cmd = raw_input(">>> ")
+        cmd = input(">>> ")
         if cmd == 'done':
             break
         elif cmd == '\r':
             continue
-        print eval(cmd)
+        print (eval(cmd))
 
 eval_loop()

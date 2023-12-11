@@ -4,5 +4,5 @@ def has_no_e(word):
         return True
     return False 
 
-s = raw_input('Pls input a string:')
+s = input('Pls input a string:')
 print has_no_e(s)

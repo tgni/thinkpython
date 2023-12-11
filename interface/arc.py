@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-#from swampy.TurtleWorld import *
 import turtle
 from math import *
 
@@ -17,16 +16,15 @@ def circle(t, r):
 
 def arc(t, r, angle):
     l      = 2 * pi * r * angle / 360.0
-    length = 5 
+    length = 3 
     n      = l / length
     polygon(t, length, n, angle)
 
-#world = TurtleWorld()
 bob   = turtle.Turtle()
 #bob.delay = 0.000001
-
-arc(bob, 250, 180)
+r = 100
+arc(bob, r, 180)
 bob.rt(90)
-bob.fd(2 * 250)
+bob.fd(2 * r)
 
 turtle.mainloop()

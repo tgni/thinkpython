@@ -12,7 +12,7 @@ def do_four(f):
     f()
 
 def p(s):
-    print s,
+    print (s, end=' ')
 
 def print_plus():
     p('+')
@@ -20,7 +20,7 @@ def print_plus():
 
 def print_plus_line():
     do_four(print_plus)
-    print '+'
+    print ('+')
 
 def print_col():
     p('|')
@@ -28,7 +28,7 @@ def print_col():
 
 def print_col_line():
     do_four(print_col)
-    print '|'
+    print ('|')
 
 def print_one_grid():
     print_plus_line()

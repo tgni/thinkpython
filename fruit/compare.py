@@ -8,7 +8,7 @@ def compare(x, y):
         return -1;
 
 if __name__ == '__main__':
-    x = raw_input('x = ')
-    y = raw_input('y = ')
+    x = input('x = ')
+    y = input('y = ')
     r = compare(int(x), int(y))
-    print 'x = ' + x + ', y = ' + y + ', r = ' + str(r)
+    print ('x = ' + x + ', y = ' + y + ', r = ' + str(r))

@@ -15,7 +15,7 @@ def test_square_root():
         p = square_root(i)
         q = sqrt(i)
         #print '%-3f %-.11f %-.11f %e' % (i, p, q, q - p)
-        print '%-3s %-13s %-13s %-17s' % (str(i), str(p), str(q), str(q - p))
+        print ('%-3s %-13s %-13s %-17s' % (str(i), str(p), str(q), str(q - p)))
         i = i + 1
 
 test_square_root()

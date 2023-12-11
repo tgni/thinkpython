@@ -6,7 +6,7 @@ def avoids(word, forbid):
                 return False
     return True
 
-forbid = raw_input('Pls input forbidden letters pattern:')
+forbid = input('Pls input forbidden letters pattern:')
 fin = open('words.txt')
 for line in fin:
     word = line.strip()

@@ -32,5 +32,5 @@ def estimate_pi():
 
     return 9801 / (2 * square_root(2) * sum)
 
-print estimate_pi()
-print pi
+print (estimate_pi())
+print (pi)

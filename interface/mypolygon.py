@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 
-from swampy.TurtleWorld import *
-world = TurtleWorld()
-bob = Turtle()
-
+import turtle
+bob = turtle.Turtle()
+print(bob)
 for i in range(4):
-    fd(bob, 100)
-    lt(bob)
-
-wait_for_user()
+    bob.fd(100)
+    bob.lt(90)
+turtle.mainloop()

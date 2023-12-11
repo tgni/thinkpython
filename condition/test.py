@@ -1,30 +1,28 @@
 #!/usr/bin/python3
-from swampy.TurtleWorld import *
 
+import turtle
 
 def draw(t, length, n):
     if n == 0:
         return
     angle = 50
-    fd(t, length*n)
-    lt(t, angle)
+    t.fd(length*n)
+    t.lt(angle)
     draw(t, length, n-1)
-    rt(t, 2*angle)
+    t.rt(2*angle)
     draw(t, length, n-1)
-    lt(t, angle)
-    bk(t, length*n)
+    t.lt(angle)
+    t.bk(length*n)
 
+bob = turtle.Turtle()
 
-world = TurtleWorld()
-bob = Turtle()
-
-pu(bob)
-lt(bob, 180)
-fd(bob, 200)
-lt(bob, 90)
-fd(bob, 200)
-lt(bob, 90)
-pd(bob)
+bob.pu() #pen up
+bob.lt(180)
+bob.fd(200)
+bob.lt(90)
+bob.fd(200)
+bob.lt(90)
+bob.pd() #pen down
 draw(bob, 20, 5)
 
-wait_for_user()
+turtle.mainloop()
