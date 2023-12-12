@@ -1,9 +1,11 @@
 #!/usr/bin/python3
-#os.path.walk(path, visit, arg)
-def visit(arg, dir, names):
-    print dir, names
 
 import os
+
+def walk(path):
+    for root, dirs, files in os.walk(path):
+        for f in files:
+            print(os.path.join(root, f))
+
 cwd = os.getcwd()
-arg = 1
-os.path.walk(cwd, visit, arg)
+walk(cwd)
