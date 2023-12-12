@@ -11,4 +11,6 @@ def reverse_lookup(d, v):
 h = histogram('parrot')
 for i in range(4):
     k = reverse_lookup(h, i)
-    print k
+    #if len(k) == 0:
+    #    raise LookupError("Could not find i : ", i)
+    print (i, k)

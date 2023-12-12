@@ -7,10 +7,10 @@ def print_hist(h):
 """
 
 def print_hist(h):
-    k = h.keys()
+    k = list(h.keys()) #dict_keys has no sort function
     k.sort()
     for c in k:
-        print c, h[c]
+        print (c, h[c])
 
 h = histogram('parrot')
 print_hist(h)
