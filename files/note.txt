@@ -11,3 +11,21 @@
    >>> os.path.isdir('music')
    >>> os.path.isfile('xxx')
    >>> os.listdir(cwd)
+4. dbm just likes dictionary:
+   import dbm
+   db = dbm.open('name', 'c'); #if not exists, create
+   db['key'] = 'value'
+   dbm has to be strings or bytes, pickling can be help
+   import pickle
+   t = [1, 2 ,3]
+   s = pickle.dumps(t) #save s to dbm
+   #get s from dbm
+   # s -> t t is object
+   t = pickle.loads(s)
+5. pipes:
+   cmd = 'string'
+   fp = os.popen(cmd)
+   r = fp.read()
+   s = fp.close()
+   cmd's result in r
+6. writing modules is easy : import filename(no '.py' suffix)

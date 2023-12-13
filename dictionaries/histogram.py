@@ -4,8 +4,8 @@ def histogram(s):
     for c in s:
         d[c] = d.get(c, 0) + 1 # d.get(c, 0): returns value otherwise 0.
     return d
-"""
-h = histogram('brontosaurus')
-print (h)
-print (h.items())
-"""
+
+if __name__ == '__main__':
+    h = histogram('brontosaurus')
+    print (h)
+    print (h.items())
