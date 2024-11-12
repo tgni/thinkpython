@@ -15,3 +15,15 @@ def calc(*numbers):
     for n in numbers:
         sum = sum + n * n
     return sum
+
+L = []
+add_end(L)
+print(L)
+L = add_end()
+print(L)
+L = add_end()
+print(L)
+
+s = calc(1, 2, 3)
+print(s)
+
